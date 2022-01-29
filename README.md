@@ -6,7 +6,11 @@ The first section of this analysis allows users to visualize their savings and d
 
 The second section uses Monte Carlo analysis to forecast the performance of a 60/40 portfolio over 30 years and a 80/20 portfolio over 10 years.
 
-All data was pulled in using Alpaca API calls to the Alpaca SDK.
+All ETF data was pulled in using Alpaca API calls to the Alpaca SDK. ETH and BTC data were pulled using the Requests library from the following links:
+
+btc_url = "https://api.alternative.me/v2/ticker/Bitcoin/?convert=USD"
+
+eth_url = "https://api.alternative.me/v2/ticker/Ethereum/?convert=USD"
 
 ---
 
